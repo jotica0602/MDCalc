@@ -34,7 +34,6 @@ def getbest(actual,money,index):
 while True:
     try:
         money = int(input('Introduce la cantidad de dinero de la que dispones:\n>'))
-        print(type(money))
         if money < 100:
             print('No hay nada que puedas comprar con esa cantidad.')
             break
